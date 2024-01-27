@@ -29,13 +29,13 @@
     transition: .4s;
 }
 .description-items {
+    height: 100%;
     display: flex;
     flex-direction: column;
     align-items: flex-end;
     justify-content: center;
 }
 .description-items h3 {
-    align-items: flex-end;
     width: 100%;
     font-size: 1.5rem;
     font-weight: 500;
