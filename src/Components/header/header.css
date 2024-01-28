@@ -10,8 +10,12 @@
 }
 .header-option {
     display: flex;
+    align-items: center;
+    margin-top: -5px;
 }
-
 .header-option li {
     list-style: none;
+    margin-right: 80px;
+    font-size: 16px;
+    cursor: pointer;
 }

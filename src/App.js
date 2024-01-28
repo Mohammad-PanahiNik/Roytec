@@ -1,9 +1,9 @@
 
 import './App.css';
-import Header from "./Components/Header/header.jsx"
-import Introduction from "./Components/Introduction/introduction.jsx"
-import Goals from "./Components/Goals/goals.jsx"
-import Description from "./Components/Description/description.jsx"
+import Header from "./Components/Header/header.jsx";
+import Introduction from "./Components/Introduction/introduction.jsx";
+import Goals from "./Components/Goals/goals.jsx";
+import Description from "./Components/Description/description.jsx";
 
 function App() {
   return (

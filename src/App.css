@@ -2,6 +2,10 @@
   font-family: lalezar;
   src: url(./font/Lalezar-Regular.woff2);
 }
+@font-face {
+  font-family: Vazirmatn;
+  src: url(./font/Vazirmatn-VariableFont_wght.ttf);
+}
 * {
   box-sizing: border-box;
   margin: 0;
