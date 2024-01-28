@@ -4,6 +4,7 @@ import Header from "./Components/Header/header.jsx";
 import Introduction from "./Components/Introduction/introduction.jsx";
 import Goals from "./Components/Goals/goals.jsx";
 import Description from "./Components/Description/description.jsx";
+import DesignerServices from "./Components/DesignerServicies/designer-services.jsx";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Introduction/>
       <Goals/>
       <Description/>
+      <DesignerServices/>
     </div>
   );
 }
