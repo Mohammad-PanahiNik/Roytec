@@ -5,8 +5,10 @@ import company from "../Assets/Company.PNG"
 import support from "../Assets/support.PNG"
 const Description = () => {
     return (
-        <div className="main-container">
             <div className="main-description">
+                <div className="back-ground">
+
+                </div>
                 <div className="main-desciotion-div">
                     <div className="description-items">
                         <img src={store} alt="" />
@@ -17,7 +19,7 @@ const Description = () => {
 
                     </div>
                 </div>
-                <div className="main-desciotion-div center">
+                <div className="main-desciotion-div">
                     <div className="description-items">
                         <img src={support}/>
                         <h3>دسترسی های آسان و کاربردی</h3>
@@ -36,8 +38,6 @@ const Description = () => {
                     </div>
                 </div>
             </div>
-        </div>
-
     )
 }
 

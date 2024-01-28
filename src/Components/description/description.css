@@ -1,62 +1,64 @@
 
-.main-container {
-    margin: 0 auto;
-    width: 70%;
-    height: 75vh;
-}
 .main-description {
-    margin: 150px 0 0 0 ;
+    width: 100%;
+    height: 764px;
     display: flex;
     justify-content: center;
-    align-items: flex-end;
-    background-color: #48bfe3;
-    height: 100%;
-    padding: 2%;
-}
-.main-desciotion-div{
+    flex-direction: center;
+    align-items: center;
     position: relative;
-    box-shadow: 5px 2px 5px rgb(209, 209, 209);
-    margin: 1%;
-    background-color: white;
-    height:90%;
-    border-radius: 25px;
-    max-width: 25%;
-    cursor: pointer;
-    transition: .4s;
 }
-.main-desciotion-div:hover {
-    transform: scale(1.03);
-    transition: .4s;
+.back-ground {
+    width: 100%;
+    height: 764px;
+    background-color: #48bfe3;
+    opacity: 0.4;
+    filter: blur(75px); 
+    position: absolute;
+    z-index: 0;
+    top: 0;
+}
+.main-desciotion-div {
+    width: 320px;
+    height: 550px;
+    border-radius: 25px;
+    border: 1px solid #000;
+    background: var(--Color, #FFF);
+    /* background-color: white; */
+    z-index: 1;
+    margin: 1%;
+
 }
 .description-items {
+    width: 100%;
     height: 100%;
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
+    align-items: center;
+    /* justify-content: center; */
+}
+.description-items img{
+    width: 160px;
+    height: 160px;
+    display: flex;
     justify-content: center;
+    margin: 10%;
 }
 .description-items h3 {
-    width: 100%;
-    font-size: 1.5rem;
-    font-weight: 500;
-    text-align: center;
-    padding: 20% 0 0 0;
+    color: #000;
+    font-family: Vazirmatn;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
 }
 .description-items p {
-    color: rgb(59, 59, 59);
+    color: #000;
     text-align: center;
-    margin: 30px;
+    font-family: Vazirmatn;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 15%;
 }
-.description-items img {
-    display: block;
-    margin-left:auto ;
-    margin-right: auto;
-    width: 70%;
-}
-.center {
-    margin-top: -1%;
-    height: 100%;
-}
-.center img {
-    padding: 10% 0 0 0;
-} 
