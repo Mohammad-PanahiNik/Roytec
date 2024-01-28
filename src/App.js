@@ -1,12 +1,16 @@
 
 import './App.css';
-import Description from "./Components/description/description.jsx"
-import Header from "./Components/header/header.jsx"
+import Header from "./Components/Header/header.jsx"
+import Introduction from "./Components/Introduction/introduction.jsx"
+import Goals from "./Components/Goals/goals.jsx"
+import Description from "./Components/Description/description.jsx"
 
 function App() {
   return (
     <div className="App">
       <Header/>
+      <Introduction/>
+      <Goals/>
       <Description/>
     </div>
   );
