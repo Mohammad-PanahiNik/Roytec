@@ -7,6 +7,7 @@
     flex-direction: center;
     align-items: center;
     position: relative;
+    margin-top: 150px;
 }
 .back-ground {
     width: 100%;
@@ -59,6 +60,6 @@
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    line-height: normal;
+    line-height: 25px;
     margin: 15%;
 }

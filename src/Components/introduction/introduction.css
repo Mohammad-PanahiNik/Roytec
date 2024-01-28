@@ -12,6 +12,7 @@
     height: 400px;
 }
 .introduction-items h3 {
+    width: 514px;
     color: #203843;
     font-family: Vazirmatn;
     font-size: 48px;
@@ -20,7 +21,7 @@
     line-height: normal;
 }
 .introduction-items  {
-    margin: 75px 5% 0 0 ;
+    margin: 75px 0 0 0 ;
 }
 .introduction-items p {
     color: #000;
