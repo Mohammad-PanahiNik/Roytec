@@ -4,13 +4,15 @@
     flex-direction: column;
     text-align: center;
     margin-top: 50px;
-    margin-bottom: 50px;
+    margin-bottom: 80px;
 }
 .services-header h1{
     margin-bottom: 10px;
 }
 .services{
     position: relative;
+    padding-bottom: 400px;
+    margin-bottom: 200px;
 }
 .services-right-side{
     width: 50%;
@@ -38,6 +40,7 @@
     width: 100%;
     position: absolute;
     right: 0;
+    top: -30px;
     text-align: center;
     z-index: 2;
 }

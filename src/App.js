@@ -5,6 +5,7 @@ import Introduction from "./Components/Introduction/introduction.jsx";
 import Goals from "./Components/Goals/goals.jsx";
 import Description from "./Components/Description/description.jsx";
 import DesignerServices from "./Components/DesignerServicies/designer-services.jsx";
+import RoadMap from "./Components/RoadMap/road-map.jsx";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Goals/>
       <Description/>
       <DesignerServices/>
+      <RoadMap/>
     </div>
   );
 }
