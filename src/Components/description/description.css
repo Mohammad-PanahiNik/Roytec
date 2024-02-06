@@ -22,9 +22,11 @@
 .main-desciotion-div {
     width: 320px;
     height: 550px;
+    box-shadow: 5px 16px 20px 0px rgba(22,25,79,0.1);
+-webkit-box-shadow: 5px 16px 20px 0px rgba(22,25,79,0.1);
+-moz-box-shadow: 5px 16px 20px 0px rgba(22,25,79,0.1);
     border-radius: 25px;
-    border: 1px solid #000;
-    background: var(--Color, #FFF);
+    background: #FFFFFF;
     /* background-color: white; */
     z-index: 1;
     margin: 1%;
