@@ -1,0 +1,24 @@
+.question{
+    border-radius: 15px;
+}
+.question:hover{
+    cursor: pointer;
+}
+.question img{
+    width: 35px;
+    transition: .3s;
+}
+.question p{
+    margin-top: 10px;
+}
+.answer{
+    margin: auto;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    height: 0;
+    overflow: hidden;
+    transition: .5s;
+}
+.rotation{
+    transform: rotate(45deg);
+}

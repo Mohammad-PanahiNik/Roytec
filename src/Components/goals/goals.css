@@ -1,11 +1,18 @@
+<<<<<<< HEAD
 .goals {
     width: 75%;
+=======
+/* .goals {
+    width: 1100px;
+>>>>>>> 15b82db263b5ed249869f41c16a59e85fc01a9e2
     height: 380px;
     display: flex;
     margin: auto;
     border-radius: 15px;
-    border: 1px solid #000;
-    background: var(--Color, #FFF);
+    background: #FFFFFF;
+    box-shadow: 5px 16px 20px 0px rgba(22,25,79,0.1);
+-webkit-box-shadow: 5px 16px 20px 0px rgba(22,25,79,0.1);
+-moz-box-shadow: 5px 16px 20px 0px rgba(22,25,79,0.1);
     margin-top: 150px;
 }
 .goals-img {
@@ -32,4 +39,25 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+} */
+.goals{
+    border-radius: 15px;
+    margin-top: 150px;
+    padding: 0 30px;
 }
+.goals-img{
+    margin-top: -40px;
+}
+@media screen and (max-width : 992px) {
+    .goals-img{
+        margin-top: -70px;
+    }
+    .goals{
+        padding:30px 20px;
+    }
+  }
+  @media screen and (max-width : 768px) {
+    .goals-img{
+        margin-top: 30px;
+    }
+  }
