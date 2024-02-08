@@ -49,3 +49,8 @@
     color: white;
     background-color: #2d434d;
 }
+@media screen and (max-width : 992px) {
+    .introduction-items h2{
+        font-size: 1.98em;
+    }
+}

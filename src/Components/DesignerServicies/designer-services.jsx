@@ -1,18 +1,22 @@
 import React from "react"
 import "./designer-services.css"
-// import rightSideImg from "../Assets/right.png"
-// import leftSideImg from "../Assets/left.png"
+// import rightTSideImg from "../Assets/right-t.png"
+// import rightBSideImg from "../Assets/right-b.png"
+// import leftTSideImg from "../Assets/left-t.png"
+// import leftBSideImg from "../Assets/left-b.png"
+
+import leftSideImg from "../Assets/left.png"
+import rightSideImg from "../Assets/right.png"
 import laptopImg from "../Assets/laptop.png"
 const DesingerServices = ()=>{
     return(
         <>
-            <div className="services-header">
+            {/* <div className="services-header">
                 <h1>خدمات تیم طراحی</h1>
                 <p>تمام آنچه برای ساختن یک وب سایت عالی نیاز است</p>
             </div>
             <div className="services">
                 <div className="services-right-side">
-                    {/* <img src={rightSideImg} alt=""/> */}
                     <div className="service-des uniqe-design">
                         <h2>طراحی منحصر بفرد</h2>
                         <p>طراحان ما وبسایتی با طراحی خاص و زیبا را به شما تحویل می دهند.</p>
@@ -26,7 +30,6 @@ const DesingerServices = ()=>{
                     <img src={laptopImg} alt=""/>
                 </div>
                 <div className="services-left-side">
-                    {/* <img className="left-img" src={leftSideImg} alt=""/> */}
                     <div className="service-des support">
                         <h2>پشتیبانی شش ماهه</h2>
                         <p>تمامی وبسایت های طراحی شده به صورت پیش فرض دارای شش ماه گارانتی رفع باگ و مشکل احتمالی در صورت وقوع میباشند.</p>
@@ -36,8 +39,22 @@ const DesingerServices = ()=>{
                         <p>طراحی متناسب با  تمام دستگاه ها  از جمله تلفن های همراه، تبلت ها  که باعث دسترسی آسان و جذاب سایت شما می شود.</p>
                     </div>
                 </div>
-            </div>
+            </div> */}
         </>
+        // <div className="designer-service container-xxl">
+        //     <img className="laptop-img" src={laptopImg} alt=""></img>
+        //     <div className="row">
+        //         <div className="col-6">
+        //             <img src={rightTSideImg} alt=""></img>
+                    
+        //         </div>
+        //         <div className="col-6"></div>
+        //     </div>
+        //     <div className="row">
+        //         <div className="col-6"></div>
+        //         <div className="col-6"></div>
+        //     </div>
+        // </div>
     )
 }
 
