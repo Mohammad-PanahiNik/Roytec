@@ -1,0 +1,28 @@
+.price-main {
+    height: 1500px;
+    background-color: #3A5565;
+}
+.price-title p{
+    background-color: #ED6D6D;
+}
+.price-text {
+    color: #6A6D9E;
+    height: 80px;
+}
+li {
+    list-style: none;
+}
+.stars {
+    width: 125px;
+    height: 25px;
+}
+.tick {
+    width: 20px;
+    height: 20px;
+    margin-left: 5px;
+}
+.card {
+    /* height: 650px; */
+    border-radius: 25px;
+    
+}

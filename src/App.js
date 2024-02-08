@@ -6,6 +6,7 @@ import Goals from "./Components/Goals/goals.jsx";
 import Description from "./Components/Description/description.jsx";
 import DesignerServices from "./Components/DesignerServicies/designer-services.jsx";
 import RoadMap from "./Components/RoadMap/road-map.jsx";
+import Price from "./Components/Price/price.jsx";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Goals/>
       <Description/>
       <DesignerServices/>
+      <Price/>
       <RoadMap/>
     </div>
   );
