@@ -1,3 +1,6 @@
+.question-box{
+    width: 75%;
+}
 .question{
     border-radius: 15px;
 }
@@ -10,8 +13,10 @@
 }
 .question p{
     margin-top: 10px;
+    font-size: 1.3em;
 }
 .answer{
+    width: 95%;
     margin: auto;
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
@@ -21,4 +26,23 @@
 }
 .rotation{
     transform: rotate(45deg);
+}
+@media screen and (max-width : 992px) {
+    .question p{
+        font-size: 1.2em ;
+    }
+}
+@media screen and (max-width : 768px){
+    .question-box{
+        width: 90%;
+    }
+    .question p{
+        font-size: 1em;
+    }
+    .question-header h2{
+        font-size: 1.5em;
+    }
+    .question-header p{
+        font-size: 1.2em;
+    }
 }

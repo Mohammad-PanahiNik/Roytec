@@ -17,12 +17,12 @@ const Question = ({ question , answer ,num })=>{
         }
     }
     return(
-        <div onClick={SelectedQuestion} className="container w-75 justify-content-center my-3">
+        <div onClick={SelectedQuestion} className="question-box container justify-content-center my-3">
                 <div id={`question-${num}`} className="row justify-content-between align-items-center question bg-white py-3 px-3 shadow">
-                    <p className="fs-3 fw-bold col-11 ">{question}</p>
+                    <p className="question-p lh-lg fw-bold col-10 ">{question}</p>
                     <img src={plusImg} alt="" className="col-1"></img>
                 </div>
-                <div className="row w-75 answer border bg-white">
+                <div className="row answer border bg-white">
                     <p className="fs-5 leady lh-lg">{answer}</p>
                 </div>
         </div>

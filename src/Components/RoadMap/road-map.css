@@ -1,7 +1,7 @@
 .road-map{
     position: relative;
     color: white;
-    height: 3930px;
+    height: 2300px;
 }
 .road-map h1{
     padding: 50px;
@@ -27,20 +27,20 @@
     height: auto;
     z-index: -1;
 } */
-.first-level{
+.level-1{
     margin-right:320px;
     transform: translateY(-70px);
 }
-.second-level{
+.level-2{
     transform: translate(190px,220px);
 }
-.third-level{
+.level-3{
     margin-right:370px ;
     transform: translateY(455px);
 }
-.fourth-level{
+.level-4{
     transform: translate(35px,810px);
 }
-.fifth-level{
+.level-5{
     transform: translate(90px,1130px);
 }
