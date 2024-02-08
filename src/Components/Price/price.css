@@ -1,6 +1,15 @@
 .price-main {
-    height: 1500px;
+    height: 2000px;
     background-color: #3A5565;
+}
+.price-introduction h1 {
+    margin-top: 100px;
+    margin-bottom: 20px;
+    color: #FFFFFF;
+}
+.price-introduction p {
+    color: #CCCCCC;
+    margin-bottom: 30px;
 }
 .price-title p{
     background-color: #ED6D6D;
@@ -8,6 +17,23 @@
 .price-text {
     color: #6A6D9E;
     height: 80px;
+}
+.card {
+    /* height: 650px; */
+    border-radius: 25px;
+    position: relative;
+    z-index: 2;
+}
+.supportt {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #F43B3B;
+    left: -65px;
+    top: -65px;
+    z-index: -1;
+
 }
 li {
     list-style: none;
@@ -20,9 +46,4 @@ li {
     width: 20px;
     height: 20px;
     margin-left: 5px;
-}
-.card {
-    /* height: 650px; */
-    border-radius: 25px;
-    
 }

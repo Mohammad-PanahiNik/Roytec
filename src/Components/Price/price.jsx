@@ -7,9 +7,14 @@ import FiveStars from "../Assets/five stars.png"
 const price = () => {
     return (
         <div className="price-main container-lg">
+            <div className="row price-introduction text-center">
+                <h1 className="h1">پلن های خودتان را انتخاب کنید!</h1>
+                <p className="fs-2">با توجه به نیاز خود می توانید از بین تعرفه ها و پلن های ما<br></br>
+                    انتخاب خودتان را به درستی انجام دهید.</p>
+            </div>
             <div className="row">
                 <div className="price-title col-lg-12 my-5">
-                    <p className="align-items-center col-lg-6 col-lg-offset-3 text-center rounded-5  fs-1 p-4">تعرفه فروشگاه های اینترنتی</p>
+                    <p className="align-items-center col-lg-6 col-lg-offset-3 fw-bold text-center rounded-5  fs-1 p-4">تعرفه فروشگاه های اینترنتی</p>
                 </div>
             </div>
             <div className="row">
@@ -17,6 +22,7 @@ const price = () => {
                 <div className="col-lg-10">
                     <div className="mx-5">
                         <div className="card col-lg-5 col-lg-offset-1">
+                            <div className="supportt"></div>
                             <div className="text-center my-5">
                                 <h2 className="h2">اختصاصی</h2>
                                 <p className="price-text m-5 fs-4">اگر به دنبال فروشگاه اینترنتی با سطح <br></br>
@@ -161,7 +167,7 @@ const price = () => {
             </div>
             <div className="row">
                 <div className="price-title col-lg-12 my-5">
-                    <p className="align-items-center col-lg-6 col-lg-offset-3 text-center rounded-5  fs-1 p-4">تعرفه فروشگاه های اینترنتی</p>
+                    <p className="align-items-center col-lg-6 col-lg-offset-3 fw-bold text-center rounded-5  fs-1 p-4">تعرفه فروشگاه های اینترنتی</p>
                 </div>
             </div>
             <div className="row">
