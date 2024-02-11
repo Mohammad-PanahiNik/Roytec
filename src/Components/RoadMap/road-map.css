@@ -1,7 +1,15 @@
+.main-roadmap{
+    margin-top: 200px;
+    position: relative;
+    background-image: url('../Assets/backgrounds.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+}
 .road-map{
     position: relative;
     color: white;
-    height: 2300px;
+    height: 2000px;
 }
 .road-map h1{
     padding: 50px;
@@ -15,7 +23,7 @@
     z-index: -1;
 }
 .levels{
-    margin-top: 250px;
+    margin-top: 180px;
     width: 100%;
     height: 1480px;
     background-image: url('../Assets/khatchin.png');
@@ -28,19 +36,48 @@
     z-index: -1;
 } */
 .level-1{
-    margin-right:320px;
-    transform: translateY(-70px);
+    margin-right:250px;
+    transform: translateY(-60px);
 }
 .level-2{
-    transform: translate(190px,220px);
+    transform: translate(190px,230px);
 }
 .level-3{
     margin-right:370px ;
-    transform: translateY(455px);
+    transform: translateY(480px);
 }
 .level-4{
-    transform: translate(35px,810px);
+    transform: translate(35px,850px);
 }
 .level-5{
-    transform: translate(90px,1130px);
+    transform: translate(90px,1160px);
+}
+
+@media screen and (max-width : 768px) {
+    .levels{
+        background-image: none;
+        margin-top: 20px;
+        height: auto;
+        margin-bottom: 50px;
+    }
+    .road-map{
+        height: auto;
+    }
+    .main-roadmap{
+        background-image: none;
+        background-color: #203843;
+    }
+    .level{
+        margin: 0;
+        transform: none;
+    }
+    .road-map h1{
+        font-size: 2em;
+    }
+    .level{
+        margin-top: 35px;
+    }
+    .level p{
+        font-size: 1.5em;
+    }
 }

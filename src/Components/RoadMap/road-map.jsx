@@ -5,20 +5,17 @@ import "./road-map.css"
 
 const Level = ({num , level , description})=>{
     return(
-        <div className={`level-${num} text-center`}>
-            <p className="display-4 fw-bold">مرحله {level}:</p>
-            <p className="fs-3 mt-4">{description}</p>
+        <div className={`level-${num} level text-lg-center`}>
+            <p className="display-5 fw-bold">مرحله {level}:</p>
+            <p className="fs-4 mt-4">{description}</p>
         </div>
     )
 }
 
 const RoadMap = () =>{
     return(
-        <div className="main-roadmap">
-        {/* <div className="container-fluid">
-            <img src={bgLevels} alt="" className="bg-levels"></img>
-        </div>
-        <div className="road-map pt-5 container">
+        <div className="main-roadmap container-fluid">
+        <div className="road-map container">
             <h1 className="text-center mt-5">مراحل طراحی و توسعه سایت</h1>
             <div className="levels">
                 <Level 
@@ -47,7 +44,7 @@ const RoadMap = () =>{
                 description={"قراردادن سایت روی سرور و تحویل به شما"}
                 />
             </div>
-        </div> */}
+        </div>
         </div>
     )
 }
