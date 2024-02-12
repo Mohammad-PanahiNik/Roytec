@@ -8,6 +8,7 @@ import DesignerServices from "./Components/DesignerServicies/designer-services.j
 import RoadMap from "./Components/RoadMap/road-map.jsx";
 import Price from "./Components/Price/price.jsx";
 import CommonQuestions from "./Components/CommonQuestions/common-questions.jsx";
+import Footer from "./Components/Footer/footer.jsx";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <RoadMap/>
       <Price/>
       <CommonQuestions/>
+      <Footer/>
     </div>
   );
 }

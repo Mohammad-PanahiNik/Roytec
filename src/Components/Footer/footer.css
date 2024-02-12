@@ -1,0 +1,44 @@
+.footer {
+    height: 300px;
+    background-color: #203843;
+    margin: 0;
+    padding: 0;
+    /* padding: 0 50px 0 50px; */
+}
+.footer-sections {
+    height: 240px;
+}
+.copy {
+    height: 60px;
+    background-color: #2D4855;
+    color: white;
+    width: 100%;
+}
+
+/* .social-media {
+    padding: 30px;
+} */
+.social-media img{
+    width: 40px;
+}
+.social-media div button {
+    width: 150px;
+    height: 50px;
+    background-color: #688C9C;
+    border-radius: 15px;
+}
+.info {
+    display: flex;
+    flex-direction: column;
+}
+.info div img {
+    width: 20px;
+    height: 20px;
+}
+
+.social-media , .members , .prices , .servicess , .info {
+    /* height: 240px; */
+    color: white;
+    flex-direction: column;
+}
+

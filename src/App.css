@@ -15,6 +15,9 @@
 body{
   background-color: #EEF5FF;
 }
+li {
+  list-style: none;
+} 
 /* .App {
   text-align: center;
 }
