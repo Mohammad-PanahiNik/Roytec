@@ -42,3 +42,13 @@
 .header-option li:hover::after{
     transform: translateX(0);
 }
+@media (max-width : 992px) {
+    .header-option li {
+        margin-right: 60px;
+    }
+}
+@media(max-width : 750px) {
+    .header-option {
+        display: none;
+    }
+}
