@@ -1,25 +1,40 @@
 import React from "react"
 import "./designer-services.css"
-import rightTSideImg from "../Assets/right-t.png"
-// import rightBSideImg from "../Assets/right-b.png"
-// import leftTSideImg from "../Assets/left-t.png"
-// import leftBSideImg from "../Assets/left-b.png"
-
-import leftSideImg from "../Assets/left.png"
-import rightSideImg from "../Assets/right.png"
 import laptopImg from "../Assets/laptop.png"
 const DesingerServices = ()=>{
     return(
-       <div className="container-fluid">
-            <div className="row text-center service-design-h">
+       <div >
+            <div className="text-center service-design-h">
                 <p className="h1">خدمات تیم طراحی</p>
                 <p className="fw-bold mt-4">تمام آنچه برای ساختن یک وب سایت عالی نیاز است</p>
             </div>  
-            <div className="main-services-div row justify-content-between w-100"> 
-                <div className=" right-top">
-                    {/* <img src={rightTSideImg}></img> */}
-                    <h2>طراحی منحصر بفرد</h2>
-                    <p className="w-75">طراحان ما وبسایتی با طراحی خاص و زیبا را به شما تحویل می دهند.</p>
+            <div className="main-services-div w-100"> 
+                <div className="main-right">
+                    <div className="right-top laptop-side">
+                        {/* <img src={rightTSideImg}></img> */}
+                        <h2 className="w-50">طراحی منحصر بفرد</h2>
+                        <p className="w-50 m-4">طراحان ما وبسایتی با طراحی خاص و زیبا را به شما تحویل می دهند.</p>
+                    </div>
+                    <div className="right-bottom laptop-side">
+                        {/* <img src={rightTSideImg}></img> */}
+                        <h2 className="w-50">طراحی منحصر بفرد</h2>
+                        <p className="w-50 m-4">طراحان ما وبسایتی با طراحی خاص و زیبا را به شما تحویل می دهند.</p>
+                    </div>
+                </div>
+                <div className="lapttop-div d-none d-xl-block">
+                    <img src={laptopImg} alt=""/>
+                </div>
+                <div className="main-left">
+                    <div className="left-top laptop-side">
+                        {/* <img src={rightTSideImg}></img> */}
+                        <h2 className="w-50">طراحی منحصر بفرد</h2>
+                        <p className="w-50 m-4">طراحان ما وبسایتی با طراحی خاص و زیبا را به شما تحویل می دهند.</p>
+                    </div>
+                    <div className="left-bottom laptop-side">
+                        {/* <img src={rightTSideImg}></img> */}
+                        <h2 className="w-50">طراحی منحصر بفرد</h2>
+                        <p className="w-50 m-4">طراحان ما وبسایتی با طراحی خاص و زیبا را به شما تحویل می دهند.</p>
+                    </div>
                 </div>
             </div>
 
