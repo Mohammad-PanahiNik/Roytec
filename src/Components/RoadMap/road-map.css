@@ -55,29 +55,53 @@
 
 @media screen and (max-width : 768px) {
     .levels{
-        background-image: none;
-        margin-top: 20px;
-        height: auto;
-        margin-bottom: 50px;
+        width: 85%;
+        /* background-image: none; */
+        margin: 100px 40px 50px 0;
+        /* height: auto; */
     }
     .road-map{
         height: auto;
     }
     .main-roadmap{
+        /* padding: 50px 0 150px 50px; */
+        padding-bottom: 100px;
         background-image: none;
         background-color: #203843;
     }
     .level{
-        margin: 0;
-        transform: none;
+        background-color: #203843;
+
     }
     .road-map h1{
         font-size: 2em;
     }
-    .level{
-        margin-top: 35px;
+    .level-h{
+        margin-bottom: -8px;
     }
     .level p{
+        width: 200px;
+        line-height: 1.8em;
         font-size: 1.5em;
     }
+    .level-1{
+        margin-right:210px;
+        transform: translateY(-60px);
+    }
+    .level-2{
+        transform: translate(70px,180px);
+    }
+    .level-3{
+        margin-right:295px ;
+        transform: translateY(420px);
+    }
+    .level-4{
+        width: 250px;
+        transform: translate(-90px,760px);
+    }
+    .level-5{
+        width: 250px;
+        transform: translate(-10px,1060px);
+    }
+
 }
