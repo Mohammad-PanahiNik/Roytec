@@ -5,8 +5,8 @@ import "./road-map.css"
 
 const Level = ({num , level , description})=>{
     return(
-        <div className={`level-${num} level text-lg-center`}>
-            <p className="display-5 fw-bold">مرحله {level}:</p>
+        <div className={`level-${num} level text-center`}>
+            <p className="level-h display-5 fw-bold">مرحله {level}:</p>
             <p className="fs-4 mt-4">{description}</p>
         </div>
     )
