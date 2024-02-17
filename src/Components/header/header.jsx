@@ -9,10 +9,10 @@ const Header = () => {
                 <img src={logo} alt="" />
             </div>
             <ul className="header-option">
-                <li>نمونه کارها</li>
-                <li>نحوه سفارش</li>
-                <li>درباره ما</li>
-                <li>تعرفه ها</li>
+                <li><a href="#">نمونه کارها</a></li>
+                <li><a href="#road-map">نحوه سفارش</a></li>
+                <li><a href="#">درباره ما</a></li>
+                <li><a href="#price">تعرفه ها</a></li>
             </ul>
         </div>
 

@@ -1,4 +1,14 @@
 .main-services-div{
+    margin-top: 150px;
+    position: relative;
+}
+.service-designer-bg{
+    width: 100%;
+    position: absolute;
+    top: -150px;
+    right: 0;
+}
+.services{
     position: relative;
     width: 100%;
     margin: 0;
@@ -77,7 +87,7 @@
     width: 90%;
 }
 @media screen and (max-width : 1200px) {
-    .laptop-side{
+    /* .laptop-side{
         position:unset;
         width: 100%;
         clip-path: none;
@@ -85,5 +95,10 @@
     .main-left , .main-right{
         width: 50%;
         display: inline-block;
+    } */
+    .laptop-side{
+    width: 450px;
     }
+}
+@media screen and (max-width : 992px) {
 }

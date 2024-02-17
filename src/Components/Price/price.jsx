@@ -6,7 +6,7 @@ import FiveStars from "../Assets/five stars.png"
 
 const price = () => {
     return (
-        <div className="price-main container-lg">
+        <div id="price" className="price-main container-lg">
             <div className="row price-introduction text-center">
                 <h1 className="h1">پلن های خودتان را انتخاب کنید!</h1>
                 <p className="fs-2">با توجه به نیاز خود می توانید از بین تعرفه ها و پلن های ما<br></br>
