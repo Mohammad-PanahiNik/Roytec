@@ -21,7 +21,7 @@ function App() {
       <RoadMap/>
       <Price/>
       <CommonQuestions/>
-      <Footer/>
+      {/* <Footer/> */}
     </div>
   );
 }
