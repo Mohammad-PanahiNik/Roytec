@@ -7,7 +7,7 @@ const Level = ({num , level , description})=>{
     return(
         <div className={`level-${num} level text-center`}>
             <p className="level-h display-5 fw-bold">مرحله {level}:</p>
-            <p className="fs-4 mt-4">{description}</p>
+            <p className="des-level fs-4 mt-4">{description}</p>
         </div>
     )
 }
@@ -16,7 +16,7 @@ const RoadMap = () =>{
     return(
         <div id="road-map" className="main-roadmap container-fluid">
         <div className="road-map container">
-            <h1 className="text-center mt-5">مراحل طراحی و توسعه سایت</h1>
+            <h1 className="text-center mt-5 lh-lg">مراحل طراحی و توسعه سایت</h1>
             <div className="levels">
                 <Level 
                 num={1}

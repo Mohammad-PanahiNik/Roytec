@@ -57,6 +57,7 @@
   @media screen and (max-width : 768px) {
     .goals{
         width: 90%;
+        margin-top: 50px;
     }
     .goals-img{
         margin-top: 30px;
@@ -69,3 +70,8 @@
         width: 60%;
     }
   }
+@media screen and (max-width : 576px) {
+    .goals{
+        margin-top: 0;
+    }
+}

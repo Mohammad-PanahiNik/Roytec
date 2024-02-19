@@ -52,7 +52,11 @@
 .level-5{
     transform: translate(90px,1160px);
 }
-
+@media screen and (max-width : 992px) {
+.main-roadmap{
+    margin-top: -5px;
+}
+}
 @media screen and (max-width : 768px) {
     .levels{
         width: 85%;
@@ -103,5 +107,80 @@
         width: 250px;
         transform: translate(-10px,1060px);
     }
-
+}
+@media screen and (max-width : 576px) {
+    .road-map h1{
+        margin-top: 0 !important;
+    }
+    .levels{
+        width: 100%;
+        height: 750px;
+        margin: 0;
+        margin-top: 100px;
+        background-image: url('../Assets/khatchin2.png');
+        background-size: auto 100%;
+        background-position: 60% center;
+        padding: 0 10%;
+        margin-bottom: 100px;
+    }
+    .main-roadmap{
+        padding: 10px 0;
+    }
+    .road-map{
+        padding: 0;
+    }
+    .level{
+        width: 100%;
+        transform: unset;
+        background-color: unset;
+        text-align: start;
+        margin: 0;
+    }
+    .level p{
+        text-align: start;
+        width: 100%;
+    }
+    .des-level{
+        margin-right: 15%;
+    }
+    .level-1{
+        transform: translateY(-75px);
+    }
+    .level-2{
+        margin-top: 97px;
+    }
+    .level-3{
+        margin-top: 120px;
+    }
+    .level-4{
+        margin-top: 105px;
+    }
+    .level-5{
+        margin-top: 110px;
+    }
+}
+@media screen and (max-width : 410px) {
+    .des-level{
+        margin-right: 0;
+    }
+    .levels{
+        padding: 0 15px;
+    }
+}
+@media screen and (max-width : 358px) {
+    .levels{
+        background-image: none;
+        margin-top: 30px;
+        margin-bottom: 0;
+        height: auto;
+    }
+    .level{
+        margin: 0;
+        transform: unset;
+        margin-bottom: 50px;
+    }
+    .road-map h1{
+        border-bottom: 1px solid rgba(255, 255, 255, 0.452);
+        ;
+    }
 }
