@@ -1,9 +1,8 @@
-.footer {
+/* .footer {
     height: 300px;
     background-color: #203843;
     margin: 0;
     padding: 0;
-    /* padding: 0 50px 0 50px; */
 }
 .footer-section {
     display: flex;
@@ -88,10 +87,169 @@
     }
 }
 @media(max-width : 992px) {
-    /* .footer-logo img{
-
-    } */
     .social-media h3 , .members h3 , .prices h3 , .footer-services h3 {
         font-size: 2rem;
+    }
+} */
+
+.footer{
+    padding-top: 20px;
+    margin: 0;
+    background-color: #203843;
+    color: white;
+}
+.footer-info{
+    font-size: 15px;
+    width: 215px;
+}
+.footer-info div img{
+    width: 20px;
+    margin-left:15px ;
+}
+.footer-info div p{
+    color: #CACACA;
+}
+.footer-logo{
+    width: 200px;
+    margin-bottom: 20px;
+}
+.footer ul li a{
+    color: white;
+}
+.footer ul li{
+    margin-bottom: 18px;
+}
+.footer ul{
+    padding: 0;
+}
+.social-links img{
+    width: 40px;
+}
+.footer-btns{
+    margin-top:35px
+}
+.footer-btns button{
+    border: none;
+    width: 120px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: #688C9C;
+}
+.copy{
+    background-color: #2D4855;
+}
+.copy p{
+    margin: 0;
+}
+.footer-services,.footer-price,.footer-member{
+    width: 100px;
+}
+.footer-social{
+    width: 280px;
+}
+
+@media screen and (max-width : 992px) {
+    .footer{
+        position: relative;
+    }
+    .footer-logo{
+        position: absolute;
+        top: 35px;
+        left:50% ;
+        transform: translateX(-50%);
+    }
+    .footer-main{
+        width:420px;
+        margin: auto;
+        margin-top: 80px;
+        display: grid;
+        grid-template-areas: "member service price" 
+                             "social social social"
+                             "info info info";
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .footer-services{
+        margin: auto;
+        grid-area: service;
+    }
+    .footer-price{
+        margin: auto;
+        margin-top: 0;
+        grid-area: price;
+    }
+    .footer-member{
+        margin: auto;
+        margin-top: 0;
+        grid-area: member;
+    }
+    .footer-social{
+        margin: auto;
+        margin-top: 50px;
+        grid-area: social;
+    }
+    .footer-info{
+        margin-top:50px ;
+        grid-area: info;
+        width: auto;
+        display: flex;
+        justify-content: space-between;
+    }
+    .info-box{
+        width: auto;
+    }
+    .footer-border{
+        width: 70%;
+        height: 1px;
+        background-color: rgba(255, 255, 255, 0.523);
+        position: absolute;
+        top: 365px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .copy{
+        text-align: center;
+    }
+}
+@media screen and (max-width : 576px) {
+    .footer-border{
+        width: 90%;
+    }
+    .footer-main{
+        width: 100%;
+    }
+    .footer-info{
+        justify-content: space-around;
+    }
+}
+@media screen and (max-width : 430px) {
+    .footer-info{
+        margin: auto;
+        margin-top: 50px;
+        flex-direction: column;
+    }
+    .info-box{
+        margin: auto;
+    }
+}
+@media screen and (max-width : 350px) {
+    .footer{
+        padding:0 5px;
+    }
+    .footer-main{
+        grid-template-areas: "service" 
+                             "price"
+                             "member"
+                             "social"
+                             "info";
+        grid-template-columns: 1fr;
+    }
+    .footer-services,.footer-price,.footer-member{
+        width: 90%;
+        margin-top: 40px;
+        padding-bottom: 25px;
+        border-bottom:1px solid  rgba(255, 255, 255, 0.523);
+    }
+    .footer-border{
+        display: none;
     }
 }

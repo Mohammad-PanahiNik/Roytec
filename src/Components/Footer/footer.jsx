@@ -67,59 +67,118 @@ const Footer = () => {
 
 
 
-        <div className="footer">
-            <div className="footer-section">
-                <div className="info">
-                    <div  className="footer-logo">
-                        <img src={logo} alt=""/>
+        // <div className="footer">
+        //     <div className="footer-section">
+        //         <div className="info">
+        //             <div  className="footer-logo">
+        //                 <img src={logo} alt=""/>
+        //             </div>
+        //             <div>
+        //                 <img src={email} className="info-icons" alt=""/>
+        //                 <p className="">roytec2023@gmail.com</p>
+        //             </div>
+        //             <div>
+        //                 <img src={phone} className="info-icons" alt=""/>
+        //                 <p>+98-9018605742</p>
+        //             </div>
+        //         </div>
+        //         <div className="members">
+        //             <h3>اعضا</h3>
+        //             <p>فرانت اند</p>
+        //             <p>بک اند</p>
+        //             <p>طراح UI/UX</p>
+        //         </div>
+        //         <div className="prices">
+        //             <h3>تعرفه ها</h3>
+        //             <p>اقتصادی</p>
+        //             <p>اختصاصی</p>
+        //         </div>
+        //         <div className="footer-services">
+        //             <h3>خدمات </h3>
+        //             <p>خدمات</p>
+        //             <p>طراحی</p>
+        //             <p>فروشگاهی</p>
+        //             <p>شرکتی</p>
+        //         </div>
+        //         <div className="social-media">
+        //             <h3>شبکه های اجتماعی</h3>
+        //             <div className="social-icons">
+        //                 <p>همراه ما باشید</p>
+        //                 <div>
+        //                     <img src={telegram} alt=""/>
+        //                     <img src={instragram} alt=""/>
+        //                     <img src={linkedin} alt=""/>
+        //                 </div>
+        //             </div>
+        //             <div>
+        //                 <button>تماس با ما</button>
+        //                 <button>درباره ما</button>
+        //             </div>
+        //         </div>
+        //     </div>
+        //     <div>
+        //         <div className="copy">
+        //             <p>تمامی حقوق مادی و معنوی این وبسایت متعلق به <span>رویتک</span> می باشد و هر گونه کپی برداری پیگرد قانونی دارد.</p>
+        //         </div>
+        //     </div>
+        // </div>
+
+
+
+        <div className="footer container-fluid">
+            <div className="footer-main row justify-content-between text-center py-5">
+                <div className="footer-border d-lg-none"></div>
+                <div className="footer-info text-start col-2">
+                    <img src={logo} alt="" className="footer-logo"></img>
+                    <div className="info-box mb-4">
+                        <img src={email} alt=""></img>
+                        <p className="d-inline fw-light">roytec2023@gmail.com</p>
                     </div>
-                    <div>
-                        <img src={email} className="info-icons" alt=""/>
-                        <p className="">roytec2023@gmail.com</p>
-                    </div>
-                    <div>
-                        <img src={phone} className="info-icons" alt=""/>
-                        <p>+98-9018605742</p>
+                    <div className="info-box">
+                        <img src={phone} alt=""></img>
+                        <p className="d-inline fw-light">98-9018605742+</p>
                     </div>
                 </div>
-                <div className="members">
-                    <h3>اعضا</h3>
-                    <p>فرانت اند</p>
-                    <p>بک اند</p>
-                    <p>طراح UI/UX</p>
+                <div className="footer-services col-1">
+                    <h3 className="mb-5 mt-1">خدمات</h3>
+                    <ul className="fw-ligher fs-4">
+                        <li><a href="#">نرم افزار</a></li>
+                        <li><a href="#">وبسایت</a></li>
+                        <li><a href="#">شرکتی</a></li>
+                        <li><a href="#">فروشگاهی</a></li>
+                    </ul>
                 </div>
-                <div className="prices">
-                    <h3>تعرفه ها</h3>
-                    <p>اقتصادی</p>
-                    <p>اختصاصی</p>
+                <div className="footer-price col-1">
+                    <h3 className="mb-5 mt-1">تعرفه ها</h3>
+                    <ul>
+                        <li><a href="#">اقتصادی</a></li>
+                        <li><a href="#">اختصاصی</a></li>
+                    </ul>
                 </div>
-                <div className="footer-services">
-                    <h3>خدمات </h3>
-                    <p>خدمات</p>
-                    <p>طراحی</p>
-                    <p>فروشگاهی</p>
-                    <p>شرکتی</p>
+                <div className="footer-member col-1">
+                    <h3 className="mb-5 mt-1">اعضا</h3>
+                    <ul>
+                        <li><a href="#">فرانت اند</a></li>
+                        <li><a href="#">بک اند</a></li>
+                        <li><a href="#">طراح UI/UX</a></li>
+                    </ul>
                 </div>
-                <div className="social-media">
-                    <h3>شبکه های اجتماعی</h3>
-                    <div className="social-icons">
-                        <p>همراه ما باشید</p>
-                        <div>
-                            <img src={telegram} alt=""/>
-                            <img src={instragram} alt=""/>
-                            <img src={linkedin} alt=""/>
-                        </div>
+                <div className="footer-social col-3">
+                    <h4 className="fs-1 mb-5">شبکه های اجتماعی</h4>
+                    <p className="d-inline fs-4 me-5">همراه ما باشید</p>
+                    <div className="social-links d-inline">
+                        <img src={telegram} alt=""/>
+                        <img src={instragram} alt=""/>
+                        <img src={linkedin} alt=""/>
                     </div>
-                    <div>
-                        <button>تماس با ما</button>
-                        <button>درباره ما</button>
-                    </div>
+                     <div className="footer-btns">
+                         <button className="me-2">تماس با ما</button>
+                         <button className="ms-2">درباره ما</button>
+                     </div>
                 </div>
             </div>
-            <div>
-                <div className="copy">
-                    <p>تمامی حقوق مادی و معنوی این وبسایت متعلق به <span>رویتک</span> می باشد و هر گونه کپی برداری پیگرد قانونی دارد.</p>
-                </div>
+            <div className="copy row p-4 ">
+                <p className="lh-lg">تمامی حقوق مادی و معنوی این وبسایت متعلق به <span className="fw-bolder fs-2">رویتک</span> می باشد و هر گونه کپی برداری پیگرد قانونی دارد.</p>
             </div>
         </div>
     )
