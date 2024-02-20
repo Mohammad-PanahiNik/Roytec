@@ -27,11 +27,11 @@
     height: 20px; 
     margin-left: 5px;
 }
-.prices , .members , .services{
+.prices , .members , .footer-services{
     width: 10%;
     text-align: center;
 }
-.prices h3 , .members h3 , .services h3{
+.prices h3 , .members h3 , .footer-services h3{
     padding-bottom: 5px;
 }
 .social-media {
@@ -57,7 +57,7 @@
     border-radius: 10px;
     margin:0 2%;
 }
-.social-media , .members , .prices , .services , .info {
+.social-media , .members , .prices , .footer-services , .info {
     height: 250px;
     padding-top: 30px;
     color: white;
@@ -88,10 +88,10 @@
     }
 }
 @media(max-width : 992px) {
-    .footer-logo img{
+    /* .footer-logo img{
 
-    }
-    .social-media h3 , .members h3 , .prices h3 , .services h3 {
+    } */
+    .social-media h3 , .members h3 , .prices h3 , .footer-services h3 {
         font-size: 2rem;
     }
 }

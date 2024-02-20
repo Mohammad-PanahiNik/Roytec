@@ -93,7 +93,7 @@ const Footer = () => {
                     <p>اقتصادی</p>
                     <p>اختصاصی</p>
                 </div>
-                <div className="services">
+                <div className="footer-services">
                     <h3>خدمات </h3>
                     <p>خدمات</p>
                     <p>طراحی</p>
