@@ -11,16 +11,19 @@
 .header-sidebar {
     display: none;
     height: 100vh;
-    width: 40%;
+    width: 100%;
     background-color: white;
     position: fixed;
     z-index: 7;
+
 }
 .header-sidebar li {
-    width: 85%;
+    /* width: 85%; */
     transition: .3s;
     cursor: pointer;
+    margin: auto;
 }
+
 .header-sidebar li:hover {
     background-color:rgb(233, 233, 233);
     box-shadow: 2px 10px 30px 8px rgba(104,196,196,0.75);
@@ -84,8 +87,8 @@
     .header-option {
         display: none;
     }
-    .header-sidebar {
+    /* .header-sidebar {
         display: block;
-    }
+    } */
 
 }

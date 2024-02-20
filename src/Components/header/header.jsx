@@ -19,9 +19,9 @@ const Header = () => {
                 <li className="fw-bold">درباره ما</li>
             </ul>
             <div className="header-sidebar">
-                <img src={logo} className="w-100 h-10" alt="" />
+                <img src={logo} className="w-100" alt="" />
                 <ul className="my-5">
-                    <li className="d-flex my-3 align-items-center fw-bold rounded-4 p-2">
+                    <li className="d-flex my-3 justialign-items-center fw-bold rounded-4 p-2">
                         <img src={workSample} className="sidebar-img mx-3" alt="" />
                         <p className="fs-3">نمونه کارها</p>
                     </li>

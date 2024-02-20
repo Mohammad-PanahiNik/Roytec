@@ -5,40 +5,93 @@
     padding: 0;
     /* padding: 0 50px 0 50px; */
 }
-.footer-sections {
-    height: 240px;
-}
-.copy {
-    height: 60px;
-    background-color: #2D4855;
-    color: white;
-    width: 100%;
-}
-
-/* .social-media {
-    padding: 30px;
-} */
-.social-media img{
-    width: 40px;
-}
-.social-media div button {
-    width: 150px;
-    height: 50px;
-    background-color: #688C9C;
-    border-radius: 15px;
+.footer-section {
+    display: flex;
+    justify-content: center;
+    height: 250px;
 }
 .info {
-    display: flex;
-    flex-direction: column;
+    width: 25%;
 }
-.info div img {
-    width: 20px;
-    height: 20px;
+.footer-logo {
+    margin: auto;
+    padding: 10px 0 15px 0;
 }
 
-.social-media , .members , .prices , .servicess , .info {
-    /* height: 240px; */
+.info div {
+    display: flex;
+    justify-content: center;
+}
+.info-icons {
+    width: 20px;
+    height: 20px; 
+    margin-left: 5px;
+}
+.prices , .members , .services{
+    width: 10%;
+    text-align: center;
+}
+.prices h3 , .members h3 , .services h3{
+    padding-bottom: 5px;
+}
+.social-media {
+    width: 25%;
+    text-align: center;
+}
+.social-icons {
+    display: flex;
+    justify-content: center;
+    margin: 30px 0 20px;
+}
+.social-icons p{
+    padding-left: 25%;
+    font-size: 1.7rem;
+}
+.social-icons img{
+    width: 35px;
+}
+.social-media div button {
+    width: 120px;
+    height: 40px;
+    background-color: #688C9C;
+    border-radius: 10px;
+    margin:0 2%;
+}
+.social-media , .members , .prices , .services , .info {
+    height: 250px;
+    padding-top: 30px;
     color: white;
     flex-direction: column;
 }
 
+.copy {
+    height: 50px;
+    background-color: #2D4855;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.copy p {
+    font-size: 1.5rem;
+}
+.copy span {
+    font-weight: 900;
+    font-size: 2rem;
+}
+@media (max-width : 1200px) {
+    .info {
+        width: 30%;
+    }
+    .social-media {
+        width: 40%;
+    }
+}
+@media(max-width : 992px) {
+    .footer-logo img{
+
+    }
+    .social-media h3 , .members h3 , .prices h3 , .services h3 {
+        font-size: 2rem;
+    }
+}
