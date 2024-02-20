@@ -13,10 +13,10 @@ const Header = () => {
                 <img src={logo} alt="" />
             </div>
             <ul className="header-option">
-                <li className="fw-bold">نمونه کارها</li>
-                <li className="fw-bold">نحوه سفارش</li>
-                <li className="fw-bold">تعرفه ها</li>
-                <li className="fw-bold">درباره ما</li>
+                <li><a href="#">نمونه کارها</a></li>
+                <li><a href="#road-map">نحوه سفارش</a></li>
+                <li><a href="#">درباره ما</a></li>
+                <li><a href="#price">تعرفه ها</a></li>
             </ul>
             <div className="header-sidebar">
                 <img src={logo} className="w-100" alt="" />

@@ -36,7 +36,7 @@
     line-height: normal;
 } */
 .goals{
-    border-radius: 15px;
+    border-radius: 50px;
     margin-top: 150px;
     padding: 0 30px;
 }
@@ -55,7 +55,23 @@
     }
   }
   @media screen and (max-width : 768px) {
+    .goals{
+        width: 90%;
+        margin-top: 50px;
+    }
     .goals-img{
         margin-top: 30px;
     }
+    .goals-items p{
+        width: 85%;
+        margin: auto;
+    }
+    .goals-img img{
+        width: 60%;
+    }
   }
+@media screen and (max-width : 576px) {
+    .goals{
+        margin-top: 0;
+    }
+}

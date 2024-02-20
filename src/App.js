@@ -17,11 +17,11 @@ function App() {
       <Introduction/>
       <Goals/>
       <Description/>
-      {/* <DesignerServices/>
-      <RoadMap/> */}
+      <DesignerServices/>
+      <RoadMap/>
       <Price/>
       <CommonQuestions/>
-      <Footer/>
+      {/* <Footer/> */}
     </div>
   );
 }

@@ -7,9 +7,9 @@ import support from "../Assets/support.PNG"
 const DescriptionBox = ({img ,header ,description})=>{
     return(
         <div className="description-box col-md-4 bg-white shadow text-center my-5">
-            <img src={img} alt="" className="col-8 my-5"></img>
+            <img src={img} alt="" className="col-8 "></img>
             <h3>{header}</h3>
-            <p className="fs-4 leady lh-lg ">{description}</p>
+            <p className="fs-4 leady lh-lg px-5">{description}</p>
         </div>
     )
 }
